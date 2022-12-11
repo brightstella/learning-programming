@@ -1,0 +1,87 @@
+body{
+    background-color:rgb(167, 157, 101);
+}
+header{
+    background-color: black;
+    padding-top:3%;
+    height: 450px;
+}
+.logo img{
+    margin-left:5%;
+    border: 3px solid gold;
+    border-radius:5%;
+    max-width: 14.8%;
+    position: relative;
+    bottom: 55px;
+}
+.logo h1,
+ p{
+    color: rgb(228, 194, 4);
+    position:  relative;
+    bottom: 290px;
+    left: 26%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 290%;
+    max-width: 69%;
+}
+span{
+    color: rgb(231, 212, 104);
+    margin-left: 20%;
+    font-size: 60%;
+}
+li{
+    display: inline-block;
+    background-color: rgb(168, 157, 94);
+    margin: 2%;
+    position: relative;
+    left:70%;
+    bottom: 34px;
+    padding: 5px;
+    border-radius: 6px;
+}
+a{
+    color:black;
+}
+footer{
+    height: 150px;
+    margin-top: 19%;
+    background-color: black;
+}
+h3 a{
+    color: gold;
+    position: relative;
+    left: 20%;
+    top: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    
+}.services{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex-grow: 2px;
+    position: relative;
+    top: 50px;
+    height: 280px;
+    gap: 9%;
+}.kitchen img,
+ .pastries img,
+ .bar,
+ .cocktail,
+ .games,
+ .booking {
+    width:190px;
+    height: 200px;
+    border: 7px solid black;
+    border-radius:25px;
+    padding: 1px;
+    font-size: larger;
+    display: flex;
+}
+h2{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif ,;
+    font-weight: bolder;
+    color:black;
+    font-size: 23;
+}
